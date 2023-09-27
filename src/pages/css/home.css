@@ -40,6 +40,11 @@
         align-items: center;
 
     }
+    .car-booking > img {
+        width: 324px; 
+        height: 146px; 
+        margin-top: 20px;
+    }
 
     .descriptions{
         /* EU SEI... NÃO ME JULGUE */
