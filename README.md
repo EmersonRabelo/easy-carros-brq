@@ -12,8 +12,8 @@ Segunda etapa do desafio BRQ da faculdade FIAP.
 ## Autores
 
 - [@EmersonRabelo](https://github.com/EmersonRabelo)
+- [@Felipe-wq](https://github.com/Felipe-wq)
 - [@LukSantana](https://github.com/LukSantana)
 - [@mathhmz](https://github.com/mathhmz)
-- [@Felipe-wq](https://github.com/Felipe-wq)
 - [@viviane-rosa](https://github.com/viviane-rosa)
 
