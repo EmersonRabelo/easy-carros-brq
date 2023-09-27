@@ -150,7 +150,7 @@
 
     .btn-club-access > button {
         width: 142px;
-        height: 32px;
+        height: 26px;
 
         align-items: center;
 
@@ -188,9 +188,6 @@
         padding: 0px;
     }
 
-    .nav-bar > ul > li {
-        
-    }
 }
 
 @media screen and (max-height: 700px) {
