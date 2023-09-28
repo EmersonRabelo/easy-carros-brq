@@ -1,0 +1,143 @@
+
+:root {
+    --gold: #DDBA00
+}
+
+@media (max-width: 600px) {
+    main {
+        height: 100%;
+        width: 100%;
+
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .user-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: 340px;
+    }
+
+    .hellow-user {
+        font-size: 24px;
+    }
+
+    .user-info > img {
+        margin: 12px 0;
+        border: solid var(--gold) 3px;
+        border-radius: 50%;
+    }
+
+    .ranking {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ranking-title {
+        font-weight: bolder;
+        font-size: 24px;
+
+        text-transform: uppercase;
+    }
+
+    .current-ranking {
+        text-transform: uppercase;
+
+        font-weight: bold;
+        font-size: 24px;
+
+        color: var(--gold);
+    }
+
+    .btn-experimentation {
+        width: 226px;
+        height: 44px;
+
+        align-items: center;
+
+        border: none;
+        border-radius: 6px;
+
+        background-color: #54BAB1;
+        color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 6px;
+    }
+
+    .btn-experimentation > p {
+        word-wrap: break-word;
+
+        font-size: 14px;
+        font-weight: bolder; 
+
+        text-transform: uppercase;
+
+        width: 80%;
+        margin: 0px;
+    }
+
+    .menu-profile {
+
+    }
+
+    .menu-profile > ul {
+        list-style-type: none;
+
+        padding: 0px;
+    }
+
+    .menu-profile > ul > li {
+        border: 1px solid #A6A6A6;
+        border-width: 1px 0 0px 0px;
+        padding: 4px;
+    }
+
+    .menu-profile > ul > li:last-child {
+        border: 1px solid #A6A6A6;
+        border-width: 1px 0px 1px 0px;
+    }
+
+    .menu-profile > ul > li > div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu-profile > ul > li > p {
+        margin-left: 10px;
+
+        margin-bottom: 4px;
+    }
+
+    .menu-profile > ul > li > div > h3 {
+        margin: 0px;
+        color: #1E1E1E;
+
+        font-size: 18px;
+    }
+
+    .menu-profile > ul > li > div > svg {
+        margin: 0 10px 0px 10px;
+    }
+
+    
+}
+
+
+@media screen and (max-height: 700px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    main { 
+        height: 800px;
+    }
+}
