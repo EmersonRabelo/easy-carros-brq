@@ -1,5 +1,6 @@
 const btnShowPwd = document.getElementById('btn-eye-icon')
 const inputPWd = document.getElementById('input-password')
+const btnLogin = document.getElementById('btn-login')
 
 let pwdIShow = false
 btnShowPwd.addEventListener('click', e => {
@@ -13,4 +14,10 @@ btnShowPwd.addEventListener('click', e => {
     }
     console.log();
     pwdIShow = !pwdIShow
+})
+
+btnLogin.addEventListener('click', e => {
+    e.preventDefault()
+
+    window.location.replace(`${window.location.origin}/src/pages/home.html`)
 })
