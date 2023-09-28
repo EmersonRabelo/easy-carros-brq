@@ -2,6 +2,11 @@ const menuOpt = document.querySelectorAll('.profile-menu_opt');
 
 [...menuOpt].forEach(element => {
     element.addEventListener('click', e => {
+
+        if(e.currentTarget.getAttribute('action') == 'out'){
+            logOut()
+        }
+
         const svg = e.currentTarget.childNodes[1].childNodes[1]
         const paths = svg.querySelectorAll('path');
 
@@ -10,3 +15,8 @@ const menuOpt = document.querySelectorAll('.profile-menu_opt');
         });
     })
 });
+
+function logOut(){
+    window.location.replace(`${window.location.origin}/src/pages/login.html`)
+}
+
