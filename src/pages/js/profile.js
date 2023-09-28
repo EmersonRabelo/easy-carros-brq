@@ -1,5 +1,7 @@
 const menuOpt = document.querySelectorAll('.profile-menu_opt');
 
+
+// TODO: Corrigir bug do svg fill
 [...menuOpt].forEach(element => {
     element.addEventListener('click', e => {
 
