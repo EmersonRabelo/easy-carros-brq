@@ -1,0 +1,188 @@
+@media (max-width: 600px) {
+    main {
+        height: 100%;
+        width: 100%;
+
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .club-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .club-my {
+        font-size: 28px;
+    }
+
+    .club-initial {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .club-dot {
+        font-size: 24px;
+        color: #54BAB1;
+    }
+
+    .club-initial-blue {
+        font-size: 15px;
+        color: #54BAB1;
+        margin-bottom: 0px;
+    }
+
+    .club-validate {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-benefits {
+        width: 218px;
+        height: 28px;
+
+        align-items: center;
+
+        text-align: center;
+
+        border: none;
+        border-radius: 6px;
+
+        background-color: #173985;
+        color: #fff;
+    }
+
+    .btn-benefits > img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .club-benefits {
+        font-size: 17px;
+
+        margin: 10px;
+        align-items: left;
+
+    }
+
+    .club-benefits > ul {
+        list-style-type: none;
+
+        font-size: 16px;
+        padding: 0px;
+
+        font-weight: bolder;
+
+        margin-inline-end: 5px;
+        margin-inline-start: 5px;
+        margin-block-start: 5px;
+    }
+
+    .club-benefits > ul > li > div {
+        font-size: 16px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: left;
+    }
+
+    .menu-profile > ul > li > p {
+        margin: 2px;
+        font-size: 16px;
+    }
+
+    .club-benefits > ul > li > div > h3 {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .details {
+        float: right;
+        font-size: 15px;
+        color: #54BAB1;
+    }
+
+    .club-rules {
+        font-size: 17px;
+
+        margin: 10px;
+        align-items: left;
+    }
+
+    .club-rules > ul {
+        list-style-type: disc;
+        margin-top: 4px;
+    }
+
+    .club-rules > ul > li {
+        font-size: 14px;
+    }
+
+    .club-rules > ul > li > div > h3 {
+        margin: 0px;
+    }
+
+    .club-informations {
+        font-size: 17px;
+
+        margin: 10px;
+        align-items: left;
+    }
+
+
+    .club-informations > ul {
+        margin-top: 6px;
+        padding: 0px;
+    }
+
+    .club-informations > ul > li {
+        list-style-type: none;
+        border: 1px solid #A6A6A6;
+        border-width: 1px 0 0px 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .club-informations > ul > li:last-child {
+        border: 1px solid #A6A6A6;
+        border-width: 1px 0px 1px 0px;
+    }
+
+    .club-informations > ul > li > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .club-informations > ul > li > div > img {
+        margin-right: 10px;
+    }
+
+    .club-informations > ul > li > div > h3 {
+        margin: 0px;
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-height: 700px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    main { 
+        height: 800px;
+    }
+}
