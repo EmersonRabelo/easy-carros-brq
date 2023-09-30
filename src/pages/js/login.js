@@ -19,5 +19,5 @@ btnShowPwd.addEventListener('click', e => {
 btnLogin.addEventListener('click', e => {
     e.preventDefault()
 
-    window.location.replace(`${window.location.origin}/src/pages/home.html`)
+    window.location.replace('../pages/home.html')
 })
