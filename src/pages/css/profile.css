@@ -26,6 +26,9 @@
     }
 
     .user-info > img {
+        width: 64px;
+        height: 64px;
+
         margin: 12px 0;
         border: solid var(--gold) 3px;
         border-radius: 50%;
