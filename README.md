@@ -8,6 +8,9 @@ Segunda etapa do desafio BRQ da faculdade FIAP.
 
 **Front-end:** HTML 5, CSS 3, JAVASCRIPT ES6 e BOOTSTRAP
 
+## Como rodar
+- Recomendamos utilizar a extensão [@LIVE-SERVER](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do VISUAL STUDIO CODE,
+a partir do index.html
 
 ## Autores
 
